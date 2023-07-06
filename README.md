@@ -1,3 +1,20 @@
+# Cloned from bitnami/redis version - 17.11.7
+[Redis-Stack-Bitnami-Helm-Chart](https://github.com/kamalkraj/Redis-Stack-Bitnami-Helm-Chart)
+
+Two files were modified to make it work
+
+https://github.com/kamalkraj/Redis-Stack-Bitnami-Helm-Chart/blob/d74b379ca4db84cae037fa10a437d89b17284744/values.yaml#L93-L94
+
+https://github.com/kamalkraj/Redis-Stack-Bitnami-Helm-Chart/blob/d74b379ca4db84cae037fa10a437d89b17284744/templates/scripts-configmap.yaml#L649-L652
+
+https://github.com/kamalkraj/Redis-Stack-Bitnami-Helm-Chart/blob/d74b379ca4db84cae037fa10a437d89b17284744/templates/scripts-configmap.yaml#L759-L762
+
+To run
+```bash
+git clone https://github.com/kamalkraj/Redis-Stack-Bitnami-Helm-Chart.git
+cd Redis-Stack-Bitnami-Helm-Chart/
+helm install redis-stack-server .
+``` 
 <!--- app-name: Redis&reg; -->
 
 # Bitnami package for Redis(R)
